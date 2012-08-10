@@ -1,4 +1,3 @@
-= NOTE: DO NOT USE YET. HAS NOT BEEN FULLY TESTED.
 = RPDFBox
 This is a wrapper for PDFBox, provided by Apache(http://pdfbox.apache.org)
 == Requirements
@@ -10,3 +9,8 @@ To install this gem:
   require 'rpdfbox'
   text = RPDFBox::TextExtraction.get_all_text("somepdf")
   puts text
+= TODO
+* Get text from page range
+* Get text for single page
+* Save text to location
+* Way more
