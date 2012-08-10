@@ -6,6 +6,7 @@ This is a wrapper for [PDFBox](http://pdfbox.apache.org), provided by Apache
 
 ## Installation ##
 To install this gem:
+
     (sudo) gem install rpdfbox
 
 ## Usage ##
