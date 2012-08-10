@@ -1,0 +1,13 @@
+=begin
+= RPDFBox
+This is a wrapper for PDFBox, provided by Apache(http://pdfbox.apache.org)
+== Requirements
+* Java 7 SE (http://java.oracle.com)
+== Installation
+To install this gem:
+  (sudo) gem install rpdfbox
+= Usage
+  require 'rpdfbox'
+  text = RPDFBox::TextExtraction.get_all_text("somepdf")
+  puts text
+=end
