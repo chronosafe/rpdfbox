@@ -1,15 +1,19 @@
-# RPDFBox
+# RPDFBox #
 This is a wrapper for [PDFBox](http://pdfbox.apache.org), provided by Apache
-## Requirements
+
+## Requirements ##
 * [Java 7 SE](http://java.oracle.com)
-## Installation
+
+## Installation ##
 To install this gem:
     (sudo) gem install rpdfbox
-## Usage
+
+## Usage ##
     require 'rpdfbox'
     text = RPDFBox::TextExtraction.get_all_text("somepdf")
     puts text
-# TODO
+
+# TODO #
 * Get text from page range
 * Get text for single page
 * Save text to location
