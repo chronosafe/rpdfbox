@@ -46,18 +46,31 @@
 <h2>Usage</h2>
 
 <pre><code>require 'rpdfbox'
-text = RPDFBox::TextExtraction.get_all_text("somepdf")
-puts text
+</code></pre>
+
+<h3>Get all text</h3>
+
+<pre><code>text = RPDFBox::TextExtraction.get_text_all("somepdf")
+</code></pre>
+
+<h3>Get multiple pages (range)</h3>
+
+<pre><code>text = RPDFBox::TextExtraction.get_text_range("somepdf",2,4)
+</code></pre>
+
+<h3>Get single page</h3>
+
+<pre><code>text = RPDFBox::TextExtraction.get_text_single("somepdf",1)
 </code></pre>
 
 <h1>TODO</h1>
 
 <ul>
-<li>Get text from page range</li>
-<li>Get text for single page</li>
 <li>Save text to location</li>
 <li>Way more</li>
-</ul>
+</ul><h1>NOTES</h1>
+
+<p>The API before 0.0.2 breaks. Just an FYI.</p>
       </section>
       <footer>
         <p>This project is maintained by <a href="https://github.com/enroxorz">enroxorz</a></p>
