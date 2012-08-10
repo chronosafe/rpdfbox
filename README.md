@@ -11,11 +11,22 @@ To install this gem:
 
 ## Usage ##
     require 'rpdfbox'
-    text = RPDFBox::TextExtraction.get_all_text("somepdf")
-    puts text
+
+### Get all text ###
+
+    text = RPDFBox::TextExtraction.get_text_all("somepdf")
+
+### Get multiple pages (range)
+
+    text = RPDFBox::TextExtraction.get_text_range("somepdf",2,4)
+
+### Get single page
+
+    text = RPDFBox::TextExtraction.get_text_single("somepdf",1)
 
 # TODO #
-* Get text from page range
-* Get text for single page
 * Save text to location
 * Way more
+
+# NOTES #
+The API before 0.0.2 breaks. Just an FYI.
