@@ -1,3 +1,4 @@
+= NOTE: DO NOT USE YET. HAS NOT BEEN FULLY TESTED.
 = RPDFBox
 This is a wrapper for PDFBox, provided by Apache(http://pdfbox.apache.org)
 == Requirements
