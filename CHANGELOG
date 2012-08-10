@@ -1,2 +1,11 @@
-2012-08-10 enroxorz <enroxorz@gmail.com>
+0.0.3 2012-08-10 enroxorz <enroxorz@gmail.com>
+  * Refactored to seperate out classes
+  * Included image converter (still in test)
+  * Included overlay
+  * Added ability to pass in password and encoding in text
+
+0.0.2 2012-08-10 enroxorz <enroxorz@gmail.com>
+  * Expanded text extraction
+
+0.0.1 2012-08-10 enroxorz <enroxorz@gmail.com>
   * Initial release. Simple PDF Extraction implementation.

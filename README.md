@@ -16,15 +16,16 @@ To install this gem:
 
     text = RPDFBox::TextExtraction.get_text_all("somepdf")
 
-### Get multiple pages (range)
+### Get text from multiple pages (range)
 
     text = RPDFBox::TextExtraction.get_text_range("somepdf",2,4)
 
-### Get single page
+### Get text from single page
 
     text = RPDFBox::TextExtraction.get_text_single("somepdf",1)
 
 # TODO #
+* spec creation
 * Save text to location
 * Way more
 

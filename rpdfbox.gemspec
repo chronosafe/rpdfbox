@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name                    = 'rpdfbox'
-  s.version                 = '0.0.2'
+  s.version                 = '0.0.3'
   s.date                    = '2012-08-10'
   s.summary                 = "PDFBox Wrapper"
   s.description             = "A wrapper for PDF Box from Apache (http://pdfbox.apache.org) "
